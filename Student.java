@@ -3,7 +3,7 @@ public class Student {
   private String  firstName;
   private String  lastName;
   int     age;
-  String  major;
+  private String  major;
 
   public Student() {
   }
@@ -16,5 +16,9 @@ public class Student {
 
   public String fullName(){
     return this.firstName + " " + this.lastName;
+  }
+
+  public String getMajor(){
+    return this.major;
   }
 }
