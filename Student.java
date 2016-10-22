@@ -17,4 +17,16 @@ public class Student {
   public String fullName(){
     return this.firstName + " " + this.lastName;
   }
+
+  public String getMajor() {
+    return this.major;
+  }
+
+  public int getMajor() {
+    return this.getMajor;
+  }
+
+  public float getGpa() {
+    return this.getGpa;
+  }
 }
